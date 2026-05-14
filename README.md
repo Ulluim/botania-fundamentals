@@ -40,7 +40,7 @@ You can adjust:
 
 ## Documentation
 
-* Full documentation available in the [Wiki](https://github.com/TUUSUARIO/botania-fundamentals/wiki).
+* Full documentation available in the [Wiki](https://github.com/Ulluim/botania-fundamentals/wiki).
 ---
 
 ## 📥 Installation
