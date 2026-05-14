@@ -1,0 +1,90 @@
+name: Bug Report
+description: Report a bug or unintended behavior
+title: "[BUG]: "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: Explain what happened.
+      placeholder: The Mana Spreader stops working after reloading the world...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can this issue be reproduced?
+      placeholder: |
+        1. Place a Mana Pool
+        2. Connect a Mana Spreader
+        3. Reload the world
+        4. Observe the issue
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened instead?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Singleplayer
+        - Multiplayer Server
+        - Both
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft Version
+      placeholder: "1.20.1"
+    validations:
+      required: true
+
+  - type: input
+    id: forge
+    attributes:
+      label: Forge Version
+      placeholder: "47.2.0"
+    validations:
+      required: true
+
+  - type: input
+    id: botania
+    attributes:
+      label: Botania Version
+      placeholder: "Example: 444"
+    validations:
+      required: true
+
+  - type: input
+    id: addon
+    attributes:
+      label: Botania Fundamentals Version
+      placeholder: "v1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or Crash Reports
+      description: Paste logs or crash reports here if applicable.
+      render: shell
