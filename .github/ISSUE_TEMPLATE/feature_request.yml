@@ -1,0 +1,58 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+title: "[FEATURE]: "
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement for Botania Fundamentals.
+
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: Feature Description
+      description: Describe the feature you would like to see added.
+      placeholder: Add configurable Mana Pool capacity multipliers...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it Solves
+      description: Explain why this feature would improve the addon.
+      placeholder: Large Botania setups require too many Mana Pools...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you imagine the feature working.
+      placeholder: Add a configurable multiplier in the config file...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      options:
+        - Performance
+        - QoL
+        - Automation
+        - Balancing
+        - Compatibility
+        - Visual
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes
+      description: Optional screenshots, mockups, or references.
