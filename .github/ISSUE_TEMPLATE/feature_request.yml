@@ -55,4 +55,4 @@ body:
     id: additional_notes
     attributes:
       label: Additional Notes
-      description: Optional screenshots, mockups, or references.
+      description: Optional screenshots, mockups, or any references.
