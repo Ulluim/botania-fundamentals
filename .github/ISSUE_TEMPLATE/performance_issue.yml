@@ -70,5 +70,5 @@ body:
     id: logs
     attributes:
       label: Logs / Spark Profiles
-      description: Paste logs, timings, or Spark profiles if available.
+      description: Paste logs, timings, or Spark profiles (if available).
       render: shell
