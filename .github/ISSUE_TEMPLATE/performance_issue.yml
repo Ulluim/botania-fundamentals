@@ -1,0 +1,74 @@
+name: Performance Issue
+description: Report lag, TPS drops, or performance problems
+title: "[PERFORMANCE]: "
+labels: ["performance"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide as much detail as possible to help identify performance issues.
+
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Describe the Performance Issue
+      description: Explain the lag or performance problem.
+      placeholder: TPS drops when using large Hopperhock farms...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affected_side
+    attributes:
+      label: Affected Side
+      options:
+        - Client
+        - Server
+        - Both
+    validations:
+      required: true
+
+  - type: input
+    id: fps
+    attributes:
+      label: FPS (if applicable)
+      placeholder: "60 FPS"
+      
+  - type: input
+    id: tps
+    attributes:
+      label: TPS (if applicable)
+      placeholder: "20 TPS"
+
+  - type: input
+    id: entities
+    attributes:
+      label: Number of Botania Blocks/Entities
+      placeholder: "Approx. 200 spreaders and 50 Hopperhocks"
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps
+      description: Explain how the issue can be reproduced.
+      placeholder: |
+        1. Create a Hopperhock farm
+        2. Add multiple Corporea networks
+        3. Observe TPS degradation
+    validations:
+      required: true
+
+  - type: textarea
+    id: modpack_info
+    attributes:
+      label: Modpack / Installed Mods
+      description: Include important mods or the full modpack name.
+      placeholder: ATM9 / Ascendra / Custom pack...
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Spark Profiles
+      description: Paste logs, timings, or Spark profiles if available.
+      render: shell
