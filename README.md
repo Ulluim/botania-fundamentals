@@ -38,6 +38,11 @@ You can adjust:
 
 ---
 
+## Documentation
+
+* Full documentation available in the [Wiki](https://github.com/TUUSUARIO/botania-fundamentals/wiki).
+---
+
 ## 📥 Installation
 1. Ensure you have **Minecraft Forge 1.20.1** installed.
 2. Download the latest version of [Botania](https://www.curseforge.com/minecraft/mc-mods/botania).
