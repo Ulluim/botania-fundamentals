@@ -51,6 +51,6 @@ Critical issues such as dupes, crashes, or exploits will receive priority fixes.
 Please avoid publicly sharing severe exploits before they are fixed.
 
 * Minor issues → GitHub Issues
-* Critical exploits → Discord (Ulluim) or email (guesss88844@gmail.com)
+* Critical exploits → Discord (Ulluim) or email (guesss88844+github@gmail.com)
 
 Thank you for helping improve Botania Fundamentals.
